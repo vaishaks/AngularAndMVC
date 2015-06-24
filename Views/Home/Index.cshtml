@@ -19,7 +19,7 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr ng-repeat="friend in friends">
+                        <tr data-ng-repeat="friend in friends">
                             <td>{{ friend.id }}</td>
                             <td>{{ friend.first_name }}</td>
                             <td>{{ friend.last_name }}</td>
@@ -29,6 +29,53 @@
                 </table>
             </div>
             <!-- /.table-responsive -->
+            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Add friend</button>
+
+            <!-- Modal -->
+            <div id="myModal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">New Friend</h4>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="form-group">
+                                    <label>ID</label>
+                                    <input class="form-control" data-ng-model="newFriend.id" />
+                                </div>
+                                <div class="form-group">
+                                    <label>First Name</label>
+                                    <input class="form-control" data-ng-model="newFriend.first_name" />
+                                </div>
+                                <div class="form-group">
+                                    <label>Last Name</label>
+                                    <input class="form-control" data-ng-model="newFriend.last_name" />
+                                </div>
+                                <div class="form-group">
+                                    <label>Alias</label>
+                                    <input class="form-control" data-ng-model="newFriend.alias" />
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-success" data-dismiss="modal">Save</button>
+                        </div>
+                    </div>
+                </div>
+            </div>          
+            <!-- /.Modal -->
+
+            <div class="two-way-binding">
+                <div class="form-group">
+                    <label>Name: </label>
+                    <input class="form-control" data-ng-model="myname" />
+                </div>
+                <h2 data-ng-bind="myname"></h2>
+            </div>
+            <!-- /.two way binding-->
         </div>
     </div>
 </div>

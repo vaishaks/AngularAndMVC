@@ -10,6 +10,8 @@ mainModule.controller("indexViewModel", function ($scope, $http, $q, $routeParam
 
     $scope.sessionName = "ASP.NET MVC with Angular JS";
     $scope.friends = friends;
+    $scope.myname = '';
+    $scope.newFriend = {};
 });
 
 var friends = [
