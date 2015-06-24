@@ -1,0 +1,17 @@
+C:\Users\vasal\Documents\Visual Studio 2013\Projects\AngularAndMVC\bin\AngularAndMVC.dll.config
+C:\Users\vasal\Documents\Visual Studio 2013\Projects\AngularAndMVC\bin\AngularAndMVC.dll
+C:\Users\vasal\Documents\Visual Studio 2013\Projects\AngularAndMVC\bin\AngularAndMVC.pdb
+C:\Users\vasal\Documents\Visual Studio 2013\Projects\AngularAndMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\vasal\Documents\Visual Studio 2013\Projects\AngularAndMVC\bin\Newtonsoft.Json.dll
+C:\Users\vasal\Documents\Visual Studio 2013\Projects\AngularAndMVC\bin\Microsoft.Web.Infrastructure.xml
+C:\Users\vasal\Documents\Visual Studio 2013\Projects\AngularAndMVC\bin\System.Web.Helpers.xml
+C:\Users\vasal\Documents\Visual Studio 2013\Projects\AngularAndMVC\bin\System.Web.Mvc.xml
+C:\Users\vasal\Documents\Visual Studio 2013\Projects\AngularAndMVC\bin\System.Web.Optimization.xml
+C:\Users\vasal\Documents\Visual Studio 2013\Projects\AngularAndMVC\bin\System.Web.Razor.xml
+C:\Users\vasal\Documents\Visual Studio 2013\Projects\AngularAndMVC\bin\System.Web.WebPages.xml
+C:\Users\vasal\Documents\Visual Studio 2013\Projects\AngularAndMVC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\vasal\Documents\Visual Studio 2013\Projects\AngularAndMVC\bin\System.Web.WebPages.Razor.xml
+C:\Users\vasal\Documents\Visual Studio 2013\Projects\AngularAndMVC\bin\Antlr3.Runtime.pdb
+C:\Users\vasal\Documents\Visual Studio 2013\Projects\AngularAndMVC\obj\Debug\AngularAndMVC_POC1.csprojResolveAssemblyReference.cache
+C:\Users\vasal\Documents\Visual Studio 2013\Projects\AngularAndMVC\obj\Debug\AngularAndMVC.dll
+C:\Users\vasal\Documents\Visual Studio 2013\Projects\AngularAndMVC\obj\Debug\AngularAndMVC.pdb

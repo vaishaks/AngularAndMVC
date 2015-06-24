@@ -1,0 +1,34 @@
+﻿@{
+    ViewBag.Title = "AngularMVC";
+}
+<div data-ng-controller ="indexViewModel">
+    <div class="jumbotron">
+        <h1 ng-cloak>{{ sessionName }}</h1>
+    </div>
+
+    <div class="row">
+        <div class="panel-body">
+            <div class="table-responsive">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>Alias</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr ng-repeat="friend in friends">
+                            <td>{{ friend.id }}</td>
+                            <td>{{ friend.first_name }}</td>
+                            <td>{{ friend.last_name }}</td>
+                            <td>{{ friend.alias }}</td>
+                        </tr>                      
+                    </tbody>
+                </table>
+            </div>
+            <!-- /.table-responsive -->
+        </div>
+    </div>
+</div>
